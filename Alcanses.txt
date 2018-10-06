@@ -1,0 +1,19 @@
+Actividades:
+Login
+Busqueda
+Resultado
+Imformacion
+Registro(Por confirmar)
+
+Layout: Utilizaremos el LinearLayout
+Colores Principales:
+	rojo carmesi:#e51a4c
+	Amarillo Hanza:#ffdf00
+
+
+psdt : Por favor Avansemos .. con fuerza :v 
+
+
+
+
+
