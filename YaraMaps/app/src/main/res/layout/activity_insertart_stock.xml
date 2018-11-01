@@ -27,11 +27,19 @@
 
         <EditText
             android:id="@+id/txtIDtienda"
-            android:layout_width="wrap_content"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/oval"
+            android:hint="contraseña"
+
+
+            android:padding="8dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,12 +55,19 @@
             android:text="ID del producto:" />
 
         <EditText
-            android:id="@+id/txtIDproducto"
-            android:layout_width="wrap_content"
+            android:layout_width="278dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/oval"
+            android:hint="contraseña"
+            android:padding="8dp" />
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -69,11 +84,18 @@
 
         <EditText
             android:id="@+id/txtCantidad"
-            android:layout_width="wrap_content"
+            android:layout_width="278dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/oval"
+            android:hint="contraseña"
+
+            android:padding="8dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -90,11 +112,17 @@
 
         <EditText
             android:id="@+id/txtPrecio"
-            android:layout_width="wrap_content"
+            android:layout_width="281dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/oval"
+            android:hint="contraseña"
+            android:padding="8dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -110,11 +138,17 @@
 
         <EditText
             android:id="@+id/txtStock"
-            android:layout_width="wrap_content"
+            android:layout_width="283dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/oval"
+            android:hint="contraseña"
+            android:padding="8dp" />
     </LinearLayout>
 
     <LinearLayout
