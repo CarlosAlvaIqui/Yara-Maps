@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#710202"
     android:orientation="vertical"
     tools:context=".Informacion">
 
@@ -14,17 +15,32 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="41dp"
-                android:text="Informacion" />
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Informacion"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViews2"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@android:color/holo_red_dark"
+                android:gravity="center_vertical"
+                android:text="Tienda"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -39,7 +55,7 @@
                     android:layout_width="384dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#000758"
+                    android:background="@android:color/black"
                     android:ems="10"
                     android:enabled="false"
                     android:gravity="center_vertical|center_horizontal"
@@ -52,7 +68,12 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:text="Producto" />
+                android:background="@android:color/holo_red_dark"
+                android:gravity="center_vertical"
+                android:text="Producto"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -71,7 +92,7 @@
                     android:layout_width="384dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#000758"
+                    android:background="@android:color/black"
                     android:editable="false"
                     android:ems="10"
                     android:enabled="false"

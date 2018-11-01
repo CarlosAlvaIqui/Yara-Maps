@@ -1,9 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
     tools:context=".Ayuda">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:background="#181ff1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Como usar este programa"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="114dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:background="#181ff1"
+            app:srcCompat="@drawable/ayuda" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:background="#181ff1"
+        android:gravity="center_vertical"
+        android:text="Usuario:"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Debera loguearse para poder hacer uso de este programa si cuenta con una tienda de su abastecimiento aqui podra ingresar la tienda que usted negocie con los respectivos productos a ofrecer"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/asd"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:background="#181ff1"
+        android:gravity="center_vertical"
+        android:text="Cliente:"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/egg"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Una vez que ingrese a la aplicacion podrea tener la opcion de buscar su producto que requeire de acuerdo a la ocasión para ello tendra la opcion de buscar en donde le indicara el abastecimiento mas cercano a su posición para su obtención"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/asdas"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:background="#181ff1"
+        android:gravity="center_vertical"
+        android:text="Para mas informacion:"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="171dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            app:srcCompat="@drawable/telee" />
+
+        <LinearLayout
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Celular:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="905678902"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fijo:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="054627896"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Correo:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yara_12@gmail.com"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
