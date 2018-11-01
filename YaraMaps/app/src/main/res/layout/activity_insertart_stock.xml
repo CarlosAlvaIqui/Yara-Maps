@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondito"
     android:orientation="vertical"
     tools:context=".InsertarDatos">
 
@@ -11,11 +12,14 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Añadir Stock" />
+        android:gravity="center"
+        android:text="Añadir Stock"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="68dp"
+        android:layout_height="89dp"
         android:orientation="horizontal">
 
         <TextView
@@ -23,12 +27,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="id de la tienda" />
+            android:text="id de la tienda"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtIDtienda"
             android:layout_width="280dp"
-            android:layout_height="wrap_content"
+            android:layout_height="58dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
@@ -36,15 +42,12 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/oval"
-            android:hint="contraseña"
-
-
             android:padding="8dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="76dp"
+        android:layout_height="99dp"
         android:orientation="horizontal">
 
         <TextView
@@ -52,11 +55,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="ID del producto:" />
+            android:text="ID del producto:"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
 
         <EditText
             android:layout_width="278dp"
-            android:layout_height="wrap_content"
+            android:layout_height="61dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
@@ -64,7 +69,6 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/oval"
-            android:hint="contraseña"
             android:padding="8dp" />
 
 
@@ -72,7 +76,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="62dp"
+        android:layout_height="98dp"
         android:orientation="horizontal">
 
         <TextView
@@ -80,12 +84,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cantidad:" />
+            android:text="Cantidad:"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtCantidad"
             android:layout_width="278dp"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
@@ -93,14 +99,12 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/oval"
-            android:hint="contraseña"
-
             android:padding="8dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="62dp"
+        android:layout_height="90dp"
         android:orientation="horizontal">
 
         <TextView
@@ -108,12 +112,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Precio" />
+            android:text="Precio"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtPrecio"
-            android:layout_width="281dp"
-            android:layout_height="wrap_content"
+            android:layout_width="282dp"
+            android:layout_height="63dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
@@ -121,12 +127,12 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/oval"
-            android:hint="contraseña"
             android:padding="8dp" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="62dp"
+        android:layout_height="75dp"
         android:orientation="horizontal">
 
         <TextView
@@ -134,12 +140,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cantidad:" />
+            android:text="Cantidad:"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtStock"
-            android:layout_width="283dp"
-            android:layout_height="wrap_content"
+            android:layout_width="282dp"
+            android:layout_height="65dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
@@ -147,7 +155,6 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/oval"
-            android:hint="contraseña"
             android:padding="8dp" />
     </LinearLayout>
 
@@ -156,20 +163,18 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnAgregar"
+        <ImageView
+            android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="grabar_onclick"
-            android:text="Agregar" />
+            app:srcCompat="@drawable/producto_agregare_amarillo" />
 
-        <Button
-            android:id="@+id/button4"
+        <ImageView
+            android:id="@+id/imageView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="salir"
-            android:text="Cancelar" />
+            app:srcCompat="@drawable/cancelar_amarillo_3" />
     </LinearLayout>
 </LinearLayout>
